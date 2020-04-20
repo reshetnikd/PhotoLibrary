@@ -13,6 +13,8 @@
 		35E3E5A3244DA1F2000EAF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E3E5A1244DA1F2000EAF85 /* Main.storyboard */; };
 		35E3E5A5244DA1F2000EAF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E3E5A4244DA1F2000EAF85 /* Assets.xcassets */; };
 		35E3E5A8244DA1F2000EAF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E3E5A6244DA1F2000EAF85 /* LaunchScreen.storyboard */; };
+		35E3E5B0244DA35C000EAF85 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E3E5AF244DA35C000EAF85 /* DetailViewController.swift */; };
+		35E3E5B2244DA470000EAF85 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E3E5B1244DA470000EAF85 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		35E3E5A4244DA1F2000EAF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35E3E5A7244DA1F2000EAF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35E3E5A9244DA1F2000EAF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E3E5AF244DA35C000EAF85 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		35E3E5B1244DA470000EAF85 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				35E3E59B244DA1F2000EAF85 /* AppDelegate.swift */,
 				35E3E59D244DA1F2000EAF85 /* SceneDelegate.swift */,
+				35E3E5B1244DA470000EAF85 /* Photo.swift */,
 				35E3E59F244DA1F2000EAF85 /* ViewController.swift */,
+				35E3E5AF244DA35C000EAF85 /* DetailViewController.swift */,
 				35E3E5A1244DA1F2000EAF85 /* Main.storyboard */,
 				35E3E5A4244DA1F2000EAF85 /* Assets.xcassets */,
 				35E3E5A6244DA1F2000EAF85 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				35E3E5A0244DA1F2000EAF85 /* ViewController.swift in Sources */,
 				35E3E59C244DA1F2000EAF85 /* AppDelegate.swift in Sources */,
 				35E3E59E244DA1F2000EAF85 /* SceneDelegate.swift in Sources */,
+				35E3E5B0244DA35C000EAF85 /* DetailViewController.swift in Sources */,
+				35E3E5B2244DA470000EAF85 /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

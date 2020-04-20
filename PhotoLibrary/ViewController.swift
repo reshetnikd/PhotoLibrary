@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
+    
+    var photos = [Photo]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
