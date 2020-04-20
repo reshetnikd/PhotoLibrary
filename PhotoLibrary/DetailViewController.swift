@@ -23,7 +23,7 @@ class DetailViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
         navigationItem.largeTitleDisplayMode = .never
         if let imageToLoad = selectedImage {
-            imageView.image = UIImage(named: imageToLoad)
+            imageView.image = UIImage(contentsOfFile: imageToLoad)
         }
     }
     
@@ -43,7 +43,7 @@ class DetailViewController: UIViewController {
             return
         }
         
-        let vc = UIActivityViewController(activityItems: [image, selectedImage!], applicationActivities: [])
+        let vc = UIActivityViewController(activityItems: [image], applicationActivities: [])
         vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
         present(vc, animated: true)
     }
